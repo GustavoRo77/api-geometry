@@ -1,0 +1,18 @@
+{
+    "name": "gustavo.pereira16/api-geometry",
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "GustavoPereira16\\ApiGeometry\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo",
+            "email": "gustavo.rossettipereira@gmail.com"
+        }
+    ]
+}

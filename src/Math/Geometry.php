@@ -1,23 +1,25 @@
 <?php
-namespace Geometria\Math;
-
+ 
+namespace gustavopereira16\Math;
+ 
 class Geometry
 {
     /**
+     * Calcula a área de um triângulo.
      * @return int|float
      */
-    public function Tria(int|float $base, int|float $altura)
+    public function areaTriangulo(int|float $base, int|float $altura)
     {
-        return $base * $altura / 2;
-
+        return ($base * $altura) / 2;
     }
-    /**
-     * @return int|float
-     */
-    public function Reta(int|float $base, int|float $altura)
-
-    {
-        return $base * $altura;
+ 
+     
+        /**
+         * Calcula a área de um retângulo.
+         * @return int|float
+         */
+        public function areaRetangulo(int|float $base, int|float $altura)
+        {
+            return $base * $altura;
+        }
     }
-    
-}

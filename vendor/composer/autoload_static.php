@@ -13,6 +13,10 @@ class ComposerStaticInit3a714b6fc17012090cbe104ddc2978e7
     );
 
     public static $prefixLengthsPsr4 = array (
+        'g' => 
+        array (
+            'gustavopereira16\\' => 17,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -26,10 +30,6 @@ class ComposerStaticInit3a714b6fc17012090cbe104ddc2978e7
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
         ),
-        'G' => 
-        array (
-            'GustavoPereira16\\ApiGeometry\\' => 29,
-        ),
         'F' => 
         array (
             'Fig\\Http\\Message\\' => 17,
@@ -38,6 +38,10 @@ class ComposerStaticInit3a714b6fc17012090cbe104ddc2978e7
     );
 
     public static $prefixDirsPsr4 = array (
+        'gustavopereira16\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -67,10 +71,6 @@ class ComposerStaticInit3a714b6fc17012090cbe104ddc2978e7
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'GustavoPereira16\\ApiGeometry\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Fig\\Http\\Message\\' => 
         array (
